@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(315deg, #351f23 0%, #bdb5c1 20%);
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerLeft {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 80%;
+}
+
+.list-name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%px;
+  display: flex;
+
+  border: 1px;
+  border-style: solid;
+  border-color: #603d5a;
+}
+
+.price {
+  color: #529213;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.list-group-item {
+  font-size: 12px;
+}
+
+.precioFinal {
+  color: red;
+}
+
+.end {
+  float: right;
+}
+.start {
+  float: left;
+}
+.inlineStart {
+  float: inline-start;
+}
+.inlineEnd {
+  float: inline-end;
+}
+
+.circulo {
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.posionCirculo {
+  display: flex;
+  justify-content: center;
+}
